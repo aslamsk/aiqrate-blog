@@ -2,7 +2,7 @@ backend:
     name: github
     repo: aslamsk/aiqrate-blog
     branch: master
-    site_domain: https://iceberg-gatsby-multilang.netlify.com/
+    site_domain: https://aiqrate-blog.netlify.com/
 
 publish_mode: editorial_workflow
 media_folder: 'static/assets/img'
