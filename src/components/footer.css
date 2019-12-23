@@ -1,0 +1,55 @@
+.footer{
+    background: #1b1d2e;
+}
+ul small li  svg {
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: 35px;
+    padding: 5px;
+     background: unset;
+    border-radius: none;
+    margin: 10px;
+    color: white;
+}
+ul small li a{
+    color: white;
+}
+ul small li:hover a{
+    color: white;
+}
+.align-self-center ul li{
+    padding: 0;
+}
+/* .text-light ul li a{
+    display: block;
+    text-align: justify;
+    color: white;
+} */
+.quick-links{
+    padding-bottom: 0;
+}
+.quick-links > a{
+    color: white; 
+    display: block;
+    margin: 1rem auto;
+    width: 32% !important;
+    text-align: left !important;
+    /* font-size: 11px;
+    font-family: unset; */
+}
+.footer-quick_links{
+    padding: 0;
+    margin: 0;
+}
+.aqrations-footer{
+
+    border-top: 1px solid #1b1d2e;
+    height:150px;
+     line-height:8rem;
+}
+.quick-link-header{
+    margin-bottom: 0 !important;
+}
+.footer-Icons{
+    padding: 0;
+}

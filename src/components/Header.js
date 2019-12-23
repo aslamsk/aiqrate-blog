@@ -4,20 +4,20 @@ import "bootstrap/dist/css/bootstrap.css"
 import { FaSearch } from "react-icons/fa"
 import { Nav, Navbar, NavDropdown, Col } from "react-bootstrap"
 import "./header.css"
-import "./main.css"
-// import "./main.css"
 // import image from "../images/aiqrate-logo-final-blackbg.png"
+import Logo from './Logo'
 const Header = ({ data }) => (
   <div>
     <Navbar expand="lg" className="fixed-top d-flex justify-content-around">
       <Navbar.Brand>
         <Link to="/">
-          {/* <img
+          <img
             style={{ margin: 0, height: "40px" }}
-            src={image}
+            src={Logo}
             alt="logo"
             className="logo"
-          /> */}
+          />
+          {/* <Logo /> */}
         </Link>
       </Navbar.Brand>
 

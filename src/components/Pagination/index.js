@@ -24,32 +24,14 @@ const Pagination = ({
         )}
       </li>
       <p>
-         <Link to='/'>
+         <Link to={prevPage}>
          {currentPage}
          </Link> 
           {of} 
-         <Link to='/'>
+         <Link  to={nextPage}>
          {numPages}
          </Link>
       </p>
-
-      {/* <div className="pagination-number">
-        {pages.map(page =>
-          isNumber(page) ? (
-            <Link
-              key={`pagination-number${page}`}
-              to={`${subpath}${page === 1 ? '' : `/${page}`}`}
-              activeClassName="active"
-            >
-              {page}
-            </Link>
-          ) : (
-            <span key="ellipsis">{page}</span>
-          ),
-        )}
-      </div> */}
-
-
 
       <li>
         {!isLast && (
