@@ -3,7 +3,7 @@ import Header from '../Header';
 import Footer from '../Footer';
 import GlobalStyles from '../../styles/global';
 import './layout.css'
-
+import {Container} from 'react-bootstrap'
 import '../main.css'
 import * as S from './styled';
 
@@ -15,14 +15,14 @@ const LocaleContext = React.createContext();
 // the locale available everywhere!
 const Layout = ({ children, pageContext: { locale } }) => (
   <LocaleContext.Provider value={{ locale }}>
-    <GlobalStyles />
-    <S.Wrapper>
+    {/* <GlobalStyles /> */}
+    {/* <S.Wrapper> */}
       <Header />
-      <S.SiteContent role="main">
-        <S.Container>{children}</S.Container>
-      </S.SiteContent>
+      {/* <SiteContent role="main"> */}
+        <Container>{children}</Container>
+      {/* </SiteContent> */}
       <Footer />
-    </S.Wrapper>
+    {/* </S.Wrapper> */}
   </LocaleContext.Provider>
 );
 

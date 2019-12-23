@@ -50,7 +50,7 @@ const PostItem = ({
 
   return (
     <S.PostItemLink to={slug}>
-      <S.PostItemWrapper>
+      <S.PostItemWrapper className="border">
         {postImg && (
           <S.PostItemImg
             fluid={postImg.node.childImageSharp.fluid}
