@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer';
 import GlobalStyles from '../../styles/global';
-
+import './layout.css'
 import * as S from './styled';
 
 const LocaleContext = React.createContext();

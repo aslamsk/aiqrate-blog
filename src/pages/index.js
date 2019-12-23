@@ -32,7 +32,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
 
       <br />
 
-      {/* <S.ListWrapper>
+      <S.ListWrapper>
         {postList.map(
           ({
             node: {
@@ -60,7 +60,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
               />
             ),
         )}
-      </S.ListWrapper> */}
+      </S.ListWrapper>
 
       <br />
 
