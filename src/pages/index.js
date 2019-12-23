@@ -5,7 +5,6 @@ import PostItem from '../components/PostItem';
 import TitlePage from '../components/TitlePage';
 import LocalizedLink from '../components/LocalizedLink';
 import useTranslations from '../components/useTranslations';
-// import LandingPage from '../pages/LandingPage'
 import * as S from '../components/ListWrapper/styled';
 
 
@@ -63,7 +62,6 @@ const Index = ({ data: { allMarkdownRemark } }) => {
     <div className="homepage">
       {/* <SEO title="Home" /> */}
       {/* <Landing /> */}
-      {/* <LandingPage /> */}
       {/* <Layout location={this.props.location} title={siteTitle}> */}
         {/* <img style={{ margin: 0 }} src={Landing} alt="Landing-pic" style={{height:'90vh', width:'100%'}} /> */}
 
